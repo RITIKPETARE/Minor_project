@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding :0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;  
+    font-family: 'Poppins', sans-serif;
+    background-image: url("illustaration/Frame 6.png");
+}
+
+#head h1{
+    font-size:60px ;
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+    font-family: futura;
+}
+#container{
+    width: 100%;
+    padding : 20px;
+    text-align: center;
+    background-image: linear-gradient(#edb9ff 1px, transparent 1px), linear-gradient(to right, #edb9ff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-color: rgba(71, 212, 255, 0);
+}
+
+#container #box_master{
+    width: 80%; 
+    padding : 40px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.275);
+    margin: 30px auto;
+
+}
+#container a{
+    color:hsl(274, 100%, 36%);
+    text-decoration: none;
+}
+
+#container #box_master .box{
+    width :100%;
+    padding : 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+#container #box_master .box .box_child{
+    width: 100%;
+    height: 12vh;
+    padding : 40px 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:20px;
+
+}
+.box :hover{
+ 
+    color:hsl(0, 0%, 0%);
+    background-color: rgb(255, 208, 14);
+}
+
+#container2 {
+    width: 100%;
+    padding : 20px;
+    text-align: center;
+    border-radius: 30px;
+    background-image: linear-gradient(#edb9ff 1px, transparent 1px), linear-gradient(to right, #edb9ff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-color: rgba(71, 212, 255, 0);
+}
+#container2 a{
+    color:hsl(274, 100%, 36%);
+    text-decoration: none;
+}
+#container2 a :hover{
+    color: red;
+}
+#container2 .semester{
+    width: 80%;
+    padding : 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px auto;
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.275);
+
+}
+#container2 .semester .subject{
+    width: 100%;
+    padding : 30px;
+    text-align: center;
+
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    text-align: center;
+    margin: 10px auto;
+}
+#container2 .semester .subject .links {
+    width: 100%;
+    padding : 30px;
+    text-align: center;
+    border-radius: 30px;
+    background-color:transparent;
+   
+}
