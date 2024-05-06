@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding :0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;  
+    font-family: 'Poppins', sans-serif;
+    background-image: url("illustaration/Frame 6.png");
+}
+
+#head h1{
+    font-size:60px ;
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+    font-family: futura;
+}
+
+#container{
+    width: 100%;
+    padding : 20px;
+    text-align: center;
+    background-image: linear-gradient(#edb9ff 1px, transparent 1px), linear-gradient(to right, #edb9ff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-color: rgba(71, 212, 255, 0);
+}
+
+#container #box_master{
+    width: 80%; 
+    padding : 40px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.275);
+    margin: 30px auto;
+
+}
+#container a{
+    color:hsl(274, 100%, 36%);
+    text-decoration: none;
+}
+
+#container #box_master .box{
+    width :100%;
+    padding : 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+#container #box_master .box .box_child{
+    width: 100%;
+    height: 12vh;
+    padding : 40px 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:20px;
+
+}
+.box :hover{
+ 
+    color:hsl(0, 0%, 0%);
+    background-color: rgb(255, 208, 14);
+}
+ #top{
+    margin-left: 90%;
+    margin-top :35%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    background-color: transparent;
+    padding: 30px;
+    
+   
+}
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button:hover {
+    width: 80px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  
+  .button:hover .svgIcon {
+    /* width: 20px; */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+  
+  .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "TOP";
+    color: rgb(255, 255, 255);
+    /* transition-duration: .3s; */
+    font-size: 0px;
+  }
+  
+  .button:hover::before {
+    font-size: 18px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+  }
+  
+#container2 {
+    width: 100%;
+    padding : 20px;
+    text-align: center;
+    background-image: linear-gradient(#edb9ff 1px, transparent 1px), linear-gradient(to right, #edb9ff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-color: rgba(71, 212, 255, 0);
+}
+#container2 a{
+    color:hsl(274, 100%, 36%);
+    text-decoration: none;
+}
+#container2 a :hover{
+    color: red;
+}
+#container2 .semester{
+    width: 80%;
+    padding : 40px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 10px auto;
+    background: rgba(255,255,255,0.55);
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.275);
+
+}
+#container2 .semester .subject{
+    width: 100%;
+    padding : 30px;
+    text-align: center;
+
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    text-align: center;
+    margin: 10px auto;
+}
+#container2 .semester .subject .links {
+    width: 100%;
+    padding : 30px;
+    text-align: center;
+    border-radius: 30px;
+    background-color:transparent;
+   
+}
