@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+  
+  }
+  html,body{
+  
+      width: 100%;
+      height: 100%;
+      font-family: head font;
+  }  
+  #main{
+ padding: 45px;
+ background-color: black ;
+  }
+ #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    color: white;
+ }
+ #nav #linka{
+ gap: 40px;
+
+ }
+ @font-face {
+  font-family: gilory;
+  src: url("Gilroy-Black.ttf");
+ }
+ @font-face {
+  font-family: head font;
+  src: url("Coluna_Rounded.otf");
+ }
+
+#container{
+  font-size: 100px;
+   
+   background-color: rgb(255, 255, 255);
+   border-radius: 30px;
+   padding: 30px;
+   width: 100%;
+
+
+}
+#container #box1{
+  font-family: head font;
+  background-color: aquamarine;
+  border-radius: 30px;
+  padding: 10%;
+  margin: 30px;
+font-size: 40px;
+
+}
+
+#container #box2{
+  font-family: gilory;
+  background-color: rgb(255, 102, 0); 
+  border-radius: 30px;
+  padding: 10%;
+  margin: 30px;
+ 
+
+
+}
+#container #box3{
+  font-family: gilory;
+  background-color: rgb(255, 102, 0); 
+  border-radius: 30px;
+  padding: 10%;
+  margin: 30px;
+ 
+
+
+}
+#container #box4{
+  font-family: gilory;
+  background-color: rgb(0, 85, 255); 
+  border-radius: 30px;
+  padding: 10%;
+  margin: 30px;
+ 
+color: white;
+
+}
